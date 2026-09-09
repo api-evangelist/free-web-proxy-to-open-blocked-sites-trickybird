@@ -1,0 +1,55 @@
+name: TrickyBird
+description: >-
+  Free web proxy to open blocked sites in a normal browser tab with no account and no install. Exposes agent-native
+  surfaces only: an llms.txt and an in-page WebMCP tool surface (13 named tools across specific pages).
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/free-web-proxy-to-open-blocked-sites-trickybird/refs/heads/main/apis.yml
+created: '2026-09-09'
+modified: '2026-09-09'
+specificationVersion: '0.21'
+tags:
+  - web proxy
+  - unblock
+  - no account
+  - no install
+  - browser
+  - agent-native
+  - WebMCP
+  - llms.txt
+  - privacy
+  - anonymity
+  - network filtering circumvention
+  - consumer utility
+apis:
+  - name: TrickyBird Agent Surface
+    description: >-
+      Agent-native interfaces for TrickyBird: a structured llms.txt and a documented WebMCP in-page tool surface. No
+      REST/OpenAPI/GraphQL/Postman contract and no remote MCP server.
+    humanURL: https://trickybird.com/webmcp
+    baseURL: https://trickybird.com
+    tags:
+      - web proxy
+      - unblock
+      - no account
+      - no install
+      - browser
+      - agent-native
+      - WebMCP
+      - llms.txt
+      - privacy
+      - anonymity
+      - network filtering circumvention
+      - consumer utility
+    properties:
+      - type: LLMsTxt
+        url: https://trickybird.com/llms.txt
+      - type: Documentation
+        url: https://trickybird.com/webmcp
+maintainers:
+  - FN: TrickyBird
+    url: https://trickybird.com
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 90
+  at: '2026-09-09T10:38:47.644Z'
