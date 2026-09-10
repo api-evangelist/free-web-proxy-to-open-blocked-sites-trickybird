@@ -1,0 +1,32 @@
+generated: '2026-09-10'
+method: searched
+source: https://trickybird.com/faq
+note: >-
+  TrickyBird publishes no pricing page (/pricing, /plans and /premium all return 404, probed
+  2026-09-10). The FAQ states the whole product is free: "TrickyBird is free to use: there is no
+  payment step and no card to enter" and "TrickyBird has no accounts: there is no name, email, or
+  password to create, and no sign-up step." The only published quotas are the session limits on
+  https://trickybird.com/session, recorded as the free tier's limits below and in
+  rate-limits/trickybird-rate-limits.yml.
+plan_count: 1
+plans:
+- name: Free
+  price: 0
+  currency: USD
+  billing_period: none
+  signup: none (no account exists)
+  included:
+  - Web proxy sessions of 1 site in 1 tab for 60 minutes each
+  - All checked sites, guides, and WebMCP in-page tools
+  limits:
+  - session_duration: 60 minutes, no extension ("There is no extend button and nothing renews it")
+  - concurrency: 1 site in 1 tab per session
+  - shared_link_validity: a copied session link "works for a few hours"
+  overage: none (session ends; a new session can be started)
+evidence:
+- url: https://trickybird.com/faq
+  status: 200
+- url: https://trickybird.com/session
+  status: 200
+- url: https://trickybird.com/pricing
+  status: 404

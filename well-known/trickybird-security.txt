@@ -1,0 +1,4 @@
+Contact: mailto:security@trickybird.com
+Expires: 2026-12-09T00:00:00Z
+Preferred-Languages: en
+Canonical: https://trickybird.com/.well-known/security.txt

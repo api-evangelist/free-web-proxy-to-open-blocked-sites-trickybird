@@ -1,0 +1,105 @@
+generated: '2026-09-10'
+method: searched
+source: >-
+  https://trickybird.com/webmcp (HTTP 200, fetched 2026-09-10) and the Agents section of
+  https://trickybird.com/llms.txt (HTTP 200, text/plain, fetched 2026-09-10). Corroborating
+  measurement notes at https://trickybird.com/webmcp/tool-metadata-on-the-wire.
+name: TrickyBird WebMCP (in-page browser-tab tools)
+status: experimental
+note: >-
+  TrickyBird's only agent surface: WebMCP tools its own pages register into
+  document.modelContext in a compatible Chromium tab. This is NOT a hosted or local MCP server —
+  the tools exist only while a TrickyBird page is open in Chrome 149-156 (origin trial token
+  carried by this origin) or a Chrome launched with --enable-features=WebMCP; Firefox and Safari
+  have no document.modelContext. Clients read tools with document.modelContext.getTools() and
+  call document.modelContext.executeTool(). The provider serves no /.well-known/webmcp.json
+  manifest (probed 404 2026-09-10); the tool surface is documented in prose at /webmcp. The
+  gateway refuses WebMCP on every document it proxies, so a page opened THROUGH TrickyBird can
+  register no tools — only TrickyBird's own first-party pages carry them. The site description
+  says "13 named tools"; the /webmcp reference enumerates 12 distinct tool names (recorded
+  below), registered 17 times across 10 page patterns.
+deployment:
+  mode: none
+  transport: in-page (WebMCP / document.modelContext)
+  auth: none
+  verified: searched
+  note: >-
+    No remote MCP endpoint an agent can POST to and no stdio package to install; recorded so the
+    in-page surface is not conflated with a hosted MCP server.
+tool_count: 12
+registrations: 17
+all_tools_no_auth: true
+tools:
+- name: open_site
+  pages: ['/']
+  category: navigation
+  description: Open a website through TrickyBird in this tab. The proxied page loads in place of this one.
+  input: {url: string}
+  returns: [ok, invalid_url, busy, cancelled, failed]
+- name: cancel_launch
+  pages: ['/', '/unblock/<slug>']
+  category: navigation
+  description: Stop an open_site or open_this_site launch on this page, before it navigates.
+  input: none
+  returns: [cancelled, nothing_to_cancel]
+- name: open_this_site
+  pages: ['/unblock/<slug>']
+  category: navigation
+  description: Open the site this page is about through TrickyBird in this tab.
+  input: none
+  returns: [ok, busy, cancelled, failed]
+- name: list_checked_sites
+  pages: ['/', '/unblock', '/status']
+  category: read
+  description: List the sites TrickyBird publishes checked pages for. Read-only, opens nothing.
+  input: none
+- name: get_site_status
+  pages: ['/', '/unblock', '/status']
+  category: read
+  description: 'Return what TrickyBird publishes for one checked site: status, category, page address and the date.'
+  input: {domain: string}
+  returns: [renders, unknown_site]
+- name: get_faq
+  pages: ['/faq']
+  category: read
+  description: Return the questions and answers TrickyBird publishes on its FAQ page.
+  input: none
+- name: get_security_overview
+  pages: ['/security']
+  category: read
+  description: Return the sections TrickyBird publishes on its security page.
+  input: none
+- name: get_comparison
+  pages: ['/compare']
+  category: read
+  description: Return the comparison TrickyBird publishes between a web proxy and a VPN.
+  input: none
+- name: get_article
+  pages: ['/learn/<slug>']
+  category: read
+  description: 'Return the explainer this page is about: title, answer, opening, sections and questions.'
+  input: none
+- name: get_site_guide
+  pages: ['/unblock/<slug>']
+  category: read
+  description: Return what TrickyBird publishes for the site this page is about.
+  input: none
+- name: list_articles
+  pages: ['/learn']
+  category: read
+  description: List the explainers TrickyBird publishes, in order.
+  input: none
+- name: get_leak_test
+  pages: ['/proof']
+  category: read
+  description: Return the leak test TrickyBird publishes on its proof page.
+  input: none
+x-evidence:
+  fetched: '2026-09-10'
+  url: https://trickybird.com/webmcp
+  http_status: 200
+  corroboration:
+  - url: https://trickybird.com/llms.txt
+    http_status: 200
+  - url: https://trickybird.com/.well-known/webmcp.json
+    http_status: 404

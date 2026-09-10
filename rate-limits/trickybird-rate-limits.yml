@@ -1,0 +1,26 @@
+generated: '2026-09-10'
+method: searched
+source: https://trickybird.com/session
+note: >-
+  TrickyBird has no REST API, so these are the published runtime limits of the browser proxy
+  product itself, from the "Your session" page. No numeric request-per-window figures, no
+  rate-limit response headers (X-RateLimit-*/RateLimit-*/Retry-After) and no exhaustion status
+  code are documented anywhere on the site — the limits are described behaviorally. An honest
+  partial: the provider documents that limits exist and how they clear, not their numbers.
+limit_count: 2
+limits:
+- scope: per-session (1 site in 1 tab)
+  kind: session duration cap
+  window: 60 minutes
+  limit: 1 session, no extension
+  on_exhaustion: 'the tab returns to the TrickyBird home page: "There is no extend button and nothing renews it"'
+- scope: per-session request burst
+  kind: request throttle
+  window: not published ("Too many requests went through too fast")
+  limit: not published
+  on_exhaustion: 'requests land on a wait page; "it clears after a wait of up to a minute"'
+headers: []
+headers_note: No rate-limit signaling headers are documented.
+evidence:
+- url: https://trickybird.com/session
+  status: 200

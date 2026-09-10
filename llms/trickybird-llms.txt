@@ -1,0 +1,112 @@
+# TrickyBird
+
+> TrickyBird is a private web proxy that opens sites blocked on a network or in a region, in a normal browser tab, no install. It rewrites the page as it passes through, so wherever TrickyBird has to carry the target site's address it carries it encoded rather than spelled out. TrickyBird has no account and keeps a small access log for at most 48 hours. The log writes one line for every request the proxy handles on your behalf, including the ones it turns away, so it holds a shortened form of your IP address and the hostname of each site or service a page loads from. The log never holds the specific pages you open, page contents, or messages.
+
+Category: web proxy / unblocker.
+Updated: 2026-09-08
+
+## Languages
+
+- Bahasa Indonesia (https://trickybird.com/id): The TrickyBird site in Bahasa Indonesia, with the same product, unblock guides, and help pages.
+- Türkçe (https://trickybird.com/tr): The TrickyBird site in Türkçe, with the same product, unblock guides, and help pages.
+- Português (https://trickybird.com/pt-BR): The TrickyBird site in Português, with the same product, unblock guides, and help pages.
+- Español (https://trickybird.com/es): The TrickyBird site in Español, with the same product, unblock guides, and help pages.
+- Русский (https://trickybird.com/ru): The TrickyBird site in Русский, with the same product, unblock guides, and help pages.
+- Deutsch (https://trickybird.com/de): The TrickyBird site in Deutsch, with the same product, unblock guides, and help pages.
+- Français (https://trickybird.com/fr): The TrickyBird site in Français, with the same product, unblock guides, and help pages.
+- Italiano (https://trickybird.com/it): The TrickyBird site in Italiano, with the same product, unblock guides, and help pages.
+
+## Product
+
+- [TrickyBird](https://trickybird.com): TrickyBird is a web proxy, not a VPN. It opens 1 site at a time in your browser tab, rather than routing your whole device through a tunnel, and there is no app to install.
+- [Unblock guide](https://trickybird.com/unblock): How to open blocked websites from your browser without installing an app or a VPN, and how to check which sites work before you start.
+- [Which sites work](https://trickybird.com/status): An honest, per-site status list: the sites we have tested that render through TrickyBird, by category. Checked in our own live tests, not promised.
+- [FAQ](https://trickybird.com/faq): Answers about using TrickyBird: which sites work, whether you need an account, what a web proxy is, and how it differs from a VPN.
+- [Your session](https://trickybird.com/session): A TrickyBird session is 1 site in 1 tab for 60 minutes. Why it ended or hit a wall, what the bolt’s color means, and what a copied link gives the next person.
+- [Support](https://trickybird.com/support): Get help with TrickyBird: how to open a site, what the quick-launch tiles do, and what to try when a page stops loading.
+- [Unblock YouTube](https://trickybird.com/unblock/youtube): YouTube blocked on your network? Open it with TrickyBird, a YouTube proxy that runs in a browser tab. Nothing to install, and a normal video plays with sound.
+- [Unblock TikTok](https://trickybird.com/unblock/tiktok): TikTok unblocked in a browser tab: open the public feed through TrickyBird, no download and no account. Browsing is the dependable part. Video can stall.
+- [Unblock Reddit](https://trickybird.com/unblock/reddit): Unblock Reddit where social media is filtered. TrickyBird opens subreddits and comment threads in the old.reddit layout in a browser tab. No VPN, no account.
+- [Unblock Instagram](https://trickybird.com/unblock/instagram): Instagram unblocked in a browser tab, nothing to install. In our own tests the full login and the real signed-in feed both worked through TrickyBird.
+- [Unblock Facebook](https://trickybird.com/unblock/facebook): Facebook blocked on your network? Open it in a browser tab with TrickyBird. In our own tests the sign-in and the real feed both work, with nothing to install.
+- [Unblock Pinterest](https://trickybird.com/unblock/pinterest): Pinterest images not loading? Open it in a browser tab through TrickyBird: boards and pins open, and the pictures load with them.
+- [Unblock Spotify](https://trickybird.com/unblock/spotify): Spotify unblocked in a browser tab. Browse the catalog, search, and sign in with your own email through TrickyBird, on a device that refuses new apps.
+- [Unblock BBC](https://trickybird.com/unblock/bbc): Unblock BBC News when a filter switches off the news category. TrickyBird loads bbc.com in a browser tab, with nothing to install and no account to make.
+- [Unblock Wikipedia](https://trickybird.com/unblock/wikipedia): Unblock Wikipedia when a network filter is in the way. Articles, their references, and the search box all load in your browser tab through TrickyBird.
+- [Unblock Wiktionary](https://trickybird.com/unblock/wiktionary): Open Wiktionary through TrickyBird when your network will not load it. Nothing to install, no account, and the entry arrives whole, tables included.
+- [Unblock Telegram](https://trickybird.com/unblock/telegram): Telegram blocked where you are? TrickyBird opens web.telegram.org in a browser tab, and you sign in with your phone number, no second device.
+- [Unblock DuckDuckGo](https://trickybird.com/unblock/duckduckgo): Filter pushed you onto a search engine you did not pick? TrickyBird opens DuckDuckGo in a browser tab, with nothing to install and no account to create.
+- [Unblock Yahoo](https://trickybird.com/unblock/yahoo): Unblock Yahoo Search on a filtered network. TrickyBird opens the search box in a browser tab, and a real query returns results, with nothing to install.
+- [Unblock OpenStreetMap](https://trickybird.com/unblock/openstreetmap): OpenStreetMap opens in a browser tab through TrickyBird when your network will not load a map. Search for a place, the map draws, and nothing gets installed.
+- [Unblock Imgur](https://trickybird.com/unblock/imgur): Imgur blocked at school or work? Open the link in a browser tab through TrickyBird, nothing to install. The pictures load and the gifv clips play.
+- [Unblock Twitch](https://trickybird.com/unblock/twitch): Twitch blocked where you are? Watch live streams and read chat in a browser tab through TrickyBird. No VPN, no app, and no account to create.
+- [Unblock Dailymotion](https://trickybird.com/unblock/dailymotion): Dailymotion blocked at school or work? Open it in a browser tab through TrickyBird, nothing to install. Home, search, and the player, checked on desktop.
+- [Unblock Kick](https://trickybird.com/unblock/kick): Kick blocked on your network? TrickyBird opens the live channel grid in a browser tab, and the channel you click plays there. Nothing to install.
+- [Unblock SoundCloud](https://trickybird.com/unblock/soundcloud): SoundCloud unblocked in a browser tab: open it through TrickyBird on a network that filters audio sites. Free public tracks play, with no app and no account.
+- [Unblock Vimeo](https://trickybird.com/unblock/vimeo): Vimeo blocked at school or work? TrickyBird plays the embedded player in a browser tab, with nothing to install. Channels and embeds are the way in.
+- [Unblock ChatGPT](https://trickybird.com/unblock/chatgpt): Unblock ChatGPT with nothing to install: sign in with your email code and chat in a browser tab, with the replies streaming in through TrickyBird.
+- [Unblock Claude](https://trickybird.com/unblock/claude): Unblock Claude with nothing to install. Open claude.ai in a browser tab through TrickyBird, sign in with an email code, and the replies stream in.
+- [Unblock Flickr](https://trickybird.com/unblock/flickr): Flickr blocked on your network? TrickyBird opens it in a browser tab with nothing to install, the photos arrive at full size, and the sign-in works too.
+- [Unblock GIPHY](https://trickybird.com/unblock/giphy): GIPHY unblocked without a VPN: open the GIF library in a browser tab through TrickyBird. Nothing to install, no account, and the GIFs arrive with the grid.
+- [Unblock Know Your Meme](https://trickybird.com/unblock/knowyourmeme): Know Your Meme blocked on your network? Open knowyourmeme.com in a browser tab through TrickyBird: nothing to install, and the entries keep their thumbnails.
+- [Unblock Bandcamp](https://trickybird.com/unblock/bandcamp): Bandcamp blocked on your network? TrickyBird opens it in a browser tab with nothing to install, and a full-length track plays rather than a preview clip.
+- [Unblock Audiomack](https://trickybird.com/unblock/audiomack): Audiomack blocked on your network? TrickyBird opens it in a browser tab with nothing to install. Search works, and a full song plays signed out.
+- [Unblock Mixcloud](https://trickybird.com/unblock/mixcloud): Mixcloud unblocked without a VPN: open a DJ mix in a browser tab through TrickyBird. Nothing to install, no account, and a 2-hour set starts playing.
+- [Unblock Mistral](https://trickybird.com/unblock/mistral): Mistral blocked on your network? TrickyBird opens chat.mistral.ai in a browser tab with nothing to install, and it answers signed out, up to 4 messages.
+- [Unblock Hugging Face](https://trickybird.com/unblock/huggingface): Hugging Face blocked on your network? TrickyBird opens it in a browser tab with nothing to install, and the model and dataset listings fill with real entries.
+- [Unblock The Guardian](https://trickybird.com/unblock/guardian): The Guardian blocked on your network? TrickyBird opens it in a browser tab with nothing to install, photographs included, and old stories still open.
+- [Unblock DW](https://trickybird.com/unblock/dw): DW blocked where you are? TrickyBird opens dw.com in a browser tab with nothing to install, and the edition you read comes through, not only the English one.
+- [Unblock Al Jazeera](https://trickybird.com/unblock/aljazeera): Al Jazeera blocked on your network? TrickyBird opens it in a browser tab with nothing to install, and the front page arrives whole rather than stripped down.
+- [Unblock ABC News](https://trickybird.com/unblock/abc-australia): ABC News Australia blocked where you are? TrickyBird opens abc.net.au in a browser tab with nothing to install, and a full story reads end to end.
+- [Unblock Wikibooks](https://trickybird.com/unblock/wikibooks): Wikibooks blocked where you are? Open a textbook in a browser tab through TrickyBird: nothing to install, no account, and the chapter reads whole.
+- [Unblock WhatsApp](https://trickybird.com/unblock/whatsapp): WhatsApp blocked on your network? Open web.whatsapp.com in a browser tab through TrickyBird, then link your phone as you always do and the chats load.
+- [Unblock Discord](https://trickybird.com/unblock/discord): Discord blocked where you are? TrickyBird opens discord.com in a browser tab, and you sign in with the email address and password you already use.
+- [Unblock Slack](https://trickybird.com/unblock/slack): Slack blocked on the network you are on? TrickyBird opens app.slack.com in a browser tab, with nothing to install and no administrator rights to ask for.
+- [Unblock Snapchat](https://trickybird.com/unblock/snapchat): Snapchat blocked and the app will not install? TrickyBird opens snapchat.com in a browser tab: Spotlight video plays, and you can sign in to your account.
+- [Unblock CrazyGames](https://trickybird.com/unblock/crazygames): CrazyGames blocked where you are? TrickyBird opens the site in a browser tab, and the games load and run right there, with nothing to install.
+- [Unblock Poki](https://trickybird.com/unblock/poki): Poki blocked on your network? TrickyBird opens the game grid in a browser tab, and a game you click loads and draws there. Nothing to install.
+- [Unblock Slither.io](https://trickybird.com/unblock/slither): Slither.io blocked on your network? TrickyBird opens it in a browser tab and the round plays: we typed a name, pressed Play, and the game ran.
+- [Unblock Skribbl.io](https://trickybird.com/unblock/skribbl): Skribbl.io blocked on your network? TrickyBird opens it in a browser tab with nothing to install. We joined a public room through it and the round ran.
+- [Unblock CurseForge](https://trickybird.com/unblock/curseforge): CurseForge blocked on your network? TrickyBird is a CurseForge proxy in a browser tab: the Minecraft mod listings open there, with nothing to install.
+- [Unblock Internet Archive](https://trickybird.com/unblock/archive): archive.org blocked where you are? TrickyBird opens the Internet Archive in a browser tab, with nothing to install, and a Wayback snapshot loads in full.
+- [Unblock Brave Search](https://trickybird.com/unblock/brave-search): Brave Search blocked on your network? TrickyBird opens it in a browser tab. You do not need the Brave browser, and there is nothing to install.
+- [Unblock TinEye](https://trickybird.com/unblock/tineye): TinEye blocked on your network? TrickyBird opens the reverse image search in a browser tab, with nothing to install and no account to create.
+- [Unblock DeviantArt](https://trickybird.com/unblock/deviantart): DeviantArt blocked on your network? TrickyBird opens it in a browser tab with nothing to install, and the art arrives at full size instead of empty frames.
+
+## Agents
+
+- WebMCP tools TrickyBird registers, by page. / registers open_site, cancel_launch, list_checked_sites and get_site_status. /unblock/<slug> registers cancel_launch, open_this_site and get_site_guide. /unblock registers list_checked_sites and get_site_status. /status registers list_checked_sites and get_site_status. /faq registers get_faq. /security registers get_security_overview. /compare registers get_comparison. /learn/<slug> registers get_article. /learn registers list_articles. /proof registers get_leak_test. The gateway refuses WebMCP on every document it serves, so a proxied page can register no tools. Details: https://trickybird.com/webmcp
+- [WebMCP tools](https://trickybird.com/webmcp): The WebMCP tools TrickyBird registers on its own pages, how to call them in a browser that carries WebMCP, and why a proxied page can register none.
+- [What a page registers with WebMCP, and what a client reads back](https://trickybird.com/webmcp/tool-metadata-on-the-wire): What a page passes to registerTool, what getTools() and the DevTools protocol read back, and where they disagree. Measured 2026-09-07, Chrome 152, production.
+
+## Compare
+
+- [Compare](https://trickybird.com/compare): TrickyBird is a web proxy, not a VPN, and it is not a replacement for one. A web proxy opens 1 site at a time inside a browser tab. A VPN sends everything your device does through a tunnel. That is a bigger job, and it needs software you install.
+- [Web proxy vs VPN: which one do you actually need?](https://trickybird.com/learn/web-proxy-vs-vpn): Use a VPN when you control the device and want every app covered; use a web proxy when the device is locked down and you only need 1 blocked site to open.
+
+## Trust & Privacy
+
+- [Security](https://trickybird.com/security): What the access log holds, what it never holds, how sessions and cookies work, and what TrickyBird does not claim.
+- [Proof](https://trickybird.com/proof): Open a site through TrickyBird and its address is encoded rather than spelled out wherever TrickyBird carries it. Check it yourself in 3 steps.
+- [Privacy policy](https://trickybird.com/privacy): TrickyBird’s privacy policy: what data the service handles, how long it is kept, and what it is never used for.
+- [Terms of service](https://trickybird.com/terms): TrickyBird’s terms of use: 16+ eligibility, acceptable use under our AUP, as-is and liability limits, and how to reach us.
+- [Acceptable use policy](https://trickybird.com/aup): TrickyBird’s acceptable use policy: what you may not do through the proxy, the sanctions and geography rule, and how we enforce it.
+- [Copyright and DMCA](https://trickybird.com/dmca): How to report copyright infringement reached through TrickyBird, what a valid notice needs, and how counter-notice and repeat-infringer handling work.
+
+## Learn
+
+- [Learn hub](https://trickybird.com/learn): Short, honest explainers: how a web proxy works, how it differs from a VPN, what it hides, and what it cannot do.
+- [What is a web proxy?](https://trickybird.com/learn/what-is-a-web-proxy): A web proxy opens 1 blocked site at a time in a normal browser tab and hides your IP from that site. It is not a VPN, and that is exactly why it works where you cannot install one.
+- [Web proxy vs VPN: which one do you actually need?](https://trickybird.com/learn/web-proxy-vs-vpn): Use a VPN when you control the device and want every app covered; use a web proxy when the device is locked down and you only need 1 blocked site to open.
+- [What is a DNS or WebRTC leak?](https://trickybird.com/learn/what-is-a-dns-and-webrtc-leak): A DNS leak shows where you are going, and a WebRTC leak can show who you are, so test both yourself rather than trusting any single promise.
+- [Is using a web proxy legal or illegal?](https://trickybird.com/learn/is-using-a-proxy-legal): In most places, using a web proxy to reach a public site is legal; the limit you actually hit is usually your network’s own policy, not the law.
+- [Are free web proxies safe?](https://trickybird.com/learn/are-free-web-proxies-safe): Some free web proxies inject ads or strip HTTPS, so the honest move is to check whichever one you use rather than take it on trust, ours included.
+- [What is a proxy server?](https://trickybird.com/learn/what-is-a-proxy-server): A proxy server is any intermediary that makes requests for you; the type depends on who it works for and where its address comes from. TrickyBird is the web proxy kind, opened in a browser tab with nothing to install.
+- [Why is a site blocked on your network?](https://trickybird.com/learn/why-networks-block-sites): A network blocks a site to enforce its own policy, not because the site is banned everywhere. A web proxy can reach a public site the network blocks, but not a paywall, a login, or a service’s regional licensing.
+- [Can your ISP see that you are using a web proxy?](https://trickybird.com/learn/can-my-isp-see-a-web-proxy): Your ISP can see that you connect to TrickyBird, so it can tell you use a web proxy. What it cannot see is the site you open through it, and that is the honest line: a web proxy hides where you go, not that you went.
+- [Does a web proxy work on your phone?](https://trickybird.com/learn/does-a-web-proxy-work-on-mobile): A web proxy runs in the mobile browser you already have, so it opens a blocked site on your iPhone or Android with nothing to install. That is exactly why it works on a phone where a VPN app cannot.
+- [Does incognito mode get past a blocked site?](https://trickybird.com/learn/does-incognito-mode-unblock-websites): Incognito mode clears what your own device remembers, not what the network blocks, so it does not unblock a site. A web proxy fetches the page from a different address, and that is what actually gets past a network block.
+
+## About
+
+- [About TrickyBird](https://trickybird.com/about): TrickyBird is a web proxy that opens a blocked site in your browser with nothing to install. What it does, what little it logs, and what it is not.

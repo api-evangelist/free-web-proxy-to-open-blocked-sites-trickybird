@@ -3,10 +3,11 @@ description: >-
   Free web proxy to open blocked sites in a normal browser tab with no account and no install. Exposes agent-native
   surfaces only: an llms.txt and an in-page WebMCP tool surface (13 named tools across specific pages).
 url: >-
-  https://raw.githubusercontent.com/api-evangelist/free-web-proxy-to-open-blocked-sites-trickybird/refs/heads/main/apis.yml
+  https://raw.githubusercontent.com/api-evangelist/trickybird/refs/heads/main/apis.yml
 created: '2026-09-09'
-modified: '2026-09-09'
+modified: '2026-09-10'
 specificationVersion: '0.21'
+image: https://trickybird.com/opengraph-image?v=cp-v0.6.3
 tags:
   - web proxy
   - unblock
@@ -27,6 +28,7 @@ apis:
       REST/OpenAPI/GraphQL/Postman contract and no remote MCP server.
     humanURL: https://trickybird.com/webmcp
     baseURL: https://trickybird.com
+    image: https://trickybird.com/opengraph-image?v=cp-v0.6.3
     tags:
       - web proxy
       - unblock
@@ -42,14 +44,50 @@ apis:
       - consumer utility
     properties:
       - type: LLMsTxt
-        url: https://trickybird.com/llms.txt
+        name: llms.txt (served live at https://trickybird.com/llms.txt, saved verbatim 2026-09-10)
+        url: llms/trickybird-llms.txt
       - type: Documentation
         url: https://trickybird.com/webmcp
+      - type: WebMCP
+        name: TrickyBird WebMCP in-page browser-tab tool surface (12 tools)
+        url: mcp/trickybird-webmcp.yml
 maintainers:
   - FN: TrickyBird
     url: https://trickybird.com
+    email: support@trickybird.com
 generated:
   by: apis.io/add
   model: claude-opus-4-8
   confidence: 90
   at: '2026-09-09T10:38:47.644Z'
+common:
+- type: Website
+  url: https://trickybird.com
+- type: VulnerabilityDisclosure
+  url: security/trickybird-vulnerability-disclosure.yml
+- type: Security
+  url: security/trickybird-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/trickybird-domain-security.yml
+- type: WellKnown
+  name: Probed /.well-known/ index (1 served document, security.txt)
+  url: well-known/trickybird-well-known.yml
+- type: SecurityTxt
+  url: well-known/trickybird-security.txt
+- type: Plans
+  name: Free product, no paid tier (published session limits recorded)
+  url: plans/trickybird-plans-pricing.yml
+- type: RateLimits
+  name: Published session/runtime limits (no numeric figures or headers documented)
+  url: rate-limits/trickybird-rate-limits.yml
+- type: Support
+  url: https://trickybird.com/support
+- type: TermsOfService
+  url: https://trickybird.com/terms
+- type: PrivacyPolicy
+  url: https://trickybird.com/privacy
+x-enrichment:
+  date: '2026-09-10'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v3
